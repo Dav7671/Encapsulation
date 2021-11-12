@@ -44,7 +44,7 @@ namespace Encapsulation
                 }
                 else
                 {
-                    Console.WriteLine("You dont have enough money");
+                    Console.WriteLine("Enter another value");
                 }
             }
            

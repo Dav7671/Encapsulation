@@ -14,7 +14,7 @@ namespace Encapsulation
             client._firstName = "Ashot";
             client._surname = "Ashotyan";
             string Fullname = client.FullName;
-            client._age = 19;
+            client.Age = 18;
             Guid id = client._id;
             client._salary = 500000;
 
@@ -27,7 +27,7 @@ namespace Encapsulation
             Console.WriteLine();
 
             ABB.Balance = 5000;
-            Console.WriteLine(ABB.Balance);
+            Console.WriteLine("Your balance = " + ABB.Balance);
             ABB.Transfer = 300;
             Console.WriteLine(ABB.Transfer);
 

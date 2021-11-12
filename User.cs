@@ -20,12 +20,6 @@ namespace Encapsulation
 
         public int Age
         {
-            get
-            {
-                return _age;
-            }
-
-
             set
             {
                 if (value < 18)
